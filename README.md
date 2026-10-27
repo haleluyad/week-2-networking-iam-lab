@@ -1,11 +1,11 @@
-# Week 2 — Networking & IAM Fundamentals
+# Week 2  Networking & IAM Fundamentals
 
 **Name:**  Haleluya Desalegn 
 **Date:** 2026-10-27
 
 ---
 
-## Task 1 — My Network Information
+## Task 1  My Network Information
 
 - **Operating system:** Windows
 - **Local IPv4 address:** 10.154.4.201
@@ -14,7 +14,7 @@
 
 ---
 
-## Task 2 — Subnetting 10.0.0.0/24 into 4 equal subnets
+## Task 2  Subnetting 10.0.0.0/24 into 4 equal subnets
 
 **Step 1 — Bits to borrow:** Need 4 subnets → 2ⁿ = 4 → n = 2 bits
 **Step 2 — New prefix:** 24 + 2 = /26
@@ -34,7 +34,7 @@
 
 ---
 
-## Task 3 — DNS Lookup
+## Task 3  DNS Lookup
 
 - **Domain tested:** `example.com`
 - **DNS resolution succeeded:** Yes
@@ -51,7 +51,7 @@
 
 ---
 
-## Task 4 — HTTPS Inspection
+## Task 4  HTTPS Inspection
 
 - **Loaded in browser:** Yes
 - **HTTP status code (from curl):** `200 OK`
@@ -70,7 +70,7 @@
 
 ---
 
-## Task 5 — HTTP Status Codes
+## Task 5  HTTP Status Codes
 
 | Code | Meaning | Example situation |
 |---|---|---|
@@ -88,7 +88,7 @@
 
 ---
 
-## Task 6 — IAM Policy
+## Task 6  IAM Policy
 
 See `s3-read-policy.json`.
 
@@ -100,7 +100,7 @@ See `s3-read-policy.json`.
 
 ---
 
-## Task 7 — Troubleshooting
+## Task 7  Troubleshooting
 
 1. **Domain does not resolve** → **DNS.** The name → IP step failed, so nothing downstream can run.
 2. **Resolves but times out** → **Network connectivity.** DNS succeeded; the endpoint is unreachable (host down, firewall blocking, wrong port).
